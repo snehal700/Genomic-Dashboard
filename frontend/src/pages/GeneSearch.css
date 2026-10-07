@@ -1,0 +1,636 @@
+/* =========================================================
+   GENE SEARCH PAGE
+   ========================================================= */
+
+.gene-search-page {
+    min-height: 100vh;
+    padding: 28px 30px 40px;
+    background: #f7f9fc;
+    color: #10233f;
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.gene-search-header {
+    margin-bottom: 24px;
+}
+
+.gene-search-breadcrumb {
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #8792a3;
+}
+
+.gene-search-breadcrumb:first-letter {
+    color: #138f80;
+}
+
+.breadcrumb-separator {
+    margin: 0 9px;
+    color: #aab3bf;
+}
+
+.gene-search-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gene-search-header h1 {
+    margin: 0;
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #10233f;
+}
+
+.gene-search-header p {
+    margin: 7px 0 0;
+    font-size: 13px;
+    color: #718096;
+}
+
+
+/* =========================================================
+   BACK TO DASHBOARD BUTTON
+   ========================================================= */
+
+.back-dashboard-button {
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    padding: 0 20px;
+
+    border: 1px solid #d8e3ed;
+    border-radius: 11px;
+
+    background: #ffffff;
+    color: #294664;
+
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    white-space: nowrap;
+
+    transition:
+        border-color 0.15s ease,
+        color 0.15s ease,
+        background 0.15s ease;
+}
+
+.back-dashboard-button svg {
+    flex-shrink: 0;
+}
+
+.back-dashboard-button:hover {
+    border-color: #0da893;
+    color: #079e8c;
+    background: #ffffff;
+}
+
+
+/* =========================================================
+   SEARCH CARD
+   ========================================================= */
+
+.gene-search-card {
+    max-width: 850px;
+    margin: 0 auto 35px;
+
+    padding: 38px 45px;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    border: 1px solid #e1e7ef;
+    border-radius: 13px;
+
+    box-shadow:
+        0 3px 12px rgba(15, 35, 60, 0.04);
+}
+
+.gene-search-icon {
+    width: 58px;
+    height: 58px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    color: #138f80;
+    background: #e5f7f3;
+}
+
+.gene-search-card h2 {
+    margin: 0;
+
+    font-size: 20px;
+
+    color: #172b4d;
+}
+
+.gene-search-description {
+    max-width: 600px;
+
+    margin: 8px auto 24px;
+
+    font-size: 12px;
+    line-height: 1.6;
+
+    color: #7c8798;
+}
+
+
+/* =========================================================
+   SEARCH FORM
+   ========================================================= */
+
+.gene-search-form {
+    display: flex;
+
+    gap: 10px;
+
+    width: 100%;
+}
+
+.gene-input-wrapper {
+    position: relative;
+
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+.gene-input-icon {
+    position: absolute;
+
+    left: 14px;
+
+    color: #9aa4b2;
+
+    pointer-events: none;
+}
+
+.gene-input-wrapper input {
+    width: 100%;
+    height: 46px;
+
+    padding:
+        0 42px
+        0 43px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #d9e0e8;
+    border-radius: 8px;
+
+    outline: none;
+
+    background: #ffffff;
+    color: #243954;
+
+    font-family: inherit;
+    font-size: 13px;
+
+    transition:
+        border-color 0.15s ease,
+        box-shadow 0.15s ease;
+}
+
+.gene-input-wrapper input::placeholder {
+    color: #a1aab8;
+}
+
+.gene-input-wrapper input:focus {
+    border-color: #169787;
+
+    box-shadow:
+        0 0 0 3px rgba(22, 151, 135, 0.09);
+}
+
+
+/* =========================================================
+   CLEAR SEARCH
+   ========================================================= */
+
+.clear-search {
+    position: absolute;
+
+    right: 12px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 22px;
+    height: 22px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #edf1f5;
+    color: #778395;
+
+    cursor: pointer;
+
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.clear-search:hover {
+    background: #e2e7ed;
+    color: #4f5d70;
+}
+
+
+/* =========================================================
+   SEARCH BUTTON
+   ========================================================= */
+
+.gene-search-button {
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 0 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #138f80;
+    color: #ffffff;
+
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+.gene-search-button:hover:not(:disabled) {
+    background: #107d70;
+    transform: translateY(-1px);
+}
+
+.gene-search-button:disabled {
+    background: #b9d8d3;
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   SECTION TITLES
+   ========================================================= */
+
+.gene-explore-section,
+.example-search-section {
+    max-width: 1100px;
+
+    margin: 0 auto 30px;
+}
+
+.gene-section-title {
+    margin-bottom: 13px;
+}
+
+.gene-section-title h2 {
+    margin: 0;
+
+    font-size: 16px;
+
+    color: #172b4d;
+}
+
+.gene-section-title p {
+    margin: 4px 0 0;
+
+    font-size: 11px;
+
+    color: #8994a5;
+}
+
+
+/* =========================================================
+   EXPLORE CARDS
+   ========================================================= */
+
+.gene-explore-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 13px;
+}
+
+.gene-explore-card {
+    padding: 18px;
+
+    background: #ffffff;
+
+    border: 1px solid #e1e7ef;
+    border-radius: 10px;
+
+    box-shadow:
+        0 2px 8px rgba(15, 35, 60, 0.03);
+
+    transition:
+        transform 0.18s ease,
+        box-shadow 0.18s ease;
+}
+
+.gene-explore-card:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 18px rgba(15, 35, 60, 0.07);
+}
+
+.explore-icon {
+    width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 12px;
+
+    border-radius: 9px;
+}
+
+.explore-icon.green {
+    color: #138f80;
+    background: #e5f7f3;
+}
+
+.explore-icon.purple {
+    color: #6250d8;
+    background: #eeeafd;
+}
+
+.explore-icon.orange {
+    color: #dc8a13;
+    background: #fff3dd;
+}
+
+.explore-icon.blue {
+    color: #2878b8;
+    background: #e7f2fb;
+}
+
+.explore-icon.pink {
+    color: #d44e78;
+    background: #fdeaf1;
+}
+
+.explore-icon.teal {
+    color: #0b7f9d;
+    background: #e5f5f9;
+}
+
+.gene-explore-card h3 {
+    margin: 0;
+
+    font-size: 13px;
+
+    color: #243954;
+}
+
+.gene-explore-card p {
+    margin: 6px 0 0;
+
+    font-size: 10px;
+    line-height: 1.5;
+
+    color: #8a95a5;
+}
+
+
+/* =========================================================
+   EXAMPLE GENES
+   ========================================================= */
+
+.example-gene-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(6, minmax(0, 1fr));
+
+    gap: 10px;
+}
+
+.example-gene-button {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 8px;
+
+    padding: 12px 13px;
+
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+
+    background: #ffffff;
+    color: #34465e;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.15s ease,
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+.example-gene-button > div {
+    display: flex;
+    align-items: center;
+
+    gap: 7px;
+}
+
+.example-gene-button svg {
+    color: #138f80;
+}
+
+.example-gene-button span {
+    font-size: 11px;
+    font-weight: 650;
+}
+
+.example-gene-button > svg {
+    color: #a0a9b5;
+}
+
+.example-gene-button:hover {
+    border-color: #bcd8d3;
+
+    background: #f8fcfb;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   DATABASE INFORMATION
+   ========================================================= */
+
+.gene-database-info {
+    max-width: 1100px;
+
+    margin: 5px auto 0;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 14px 16px;
+
+    border: 1px solid #dce9e7;
+    border-radius: 10px;
+
+    background: #f8fcfb;
+}
+
+.gene-database-info-icon {
+    width: 37px;
+    height: 37px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+
+    color: #138f80;
+    background: #e3f6f2;
+}
+
+.gene-database-info strong {
+    display: block;
+
+    font-size: 11px;
+
+    color: #34465e;
+}
+
+.gene-database-info p {
+    margin: 3px 0 0;
+
+    font-size: 9px;
+
+    color: #8a95a5;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 950px) {
+
+    .gene-explore-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .example-gene-grid {
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .gene-search-page {
+        padding: 22px 18px 30px;
+    }
+
+    .gene-search-header-row {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .back-dashboard-button {
+        width: auto;
+    }
+
+    .gene-search-card {
+        padding: 30px 20px;
+    }
+
+    .gene-search-form {
+        flex-direction: column;
+    }
+
+    .gene-search-button {
+        width: 100%;
+    }
+
+    .gene-explore-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .example-gene-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .gene-search-header h1 {
+        font-size: 23px;
+    }
+
+    .back-dashboard-button {
+        height: 46px;
+
+        padding: 0 16px;
+
+        font-size: 12px;
+    }
+
+    .example-gene-grid {
+        grid-template-columns: 1fr;
+    }
+}

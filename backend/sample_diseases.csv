@@ -1,0 +1,985 @@
+Sample ID,New Case label,Organ Type
+6,CON, 
+1A0027,CON, 
+1A0029,CON, 
+1A0041,CON, 
+1A0061,CON, 
+1A0154,CON, 
+1A0166,CON, 
+1A0169,CON, 
+1A0168,CON, 
+1A0159,CON,
+1A0155,CON, 
+1A0347,CON, 
+1A0348,CON, 
+1A0458,CON, 
+1A0459,CON, 
+2A0027,CON, 
+2A0087,CON, 
+2A0440,CON, 
+2A0057,CON, 
+2A0760 ,CON, 
+2A0810,CON, 
+3A0326,CON, 
+3A0350,CON,Prostate
+3A0454,CON, 
+3A0631,CON, 
+3A0700,CON, 
+3A0723,CON, 
+3A0753,CON, 
+3A0819,CON, 
+3A1288,CON, 
+3A1343,CON, 
+4A0414,CON, 
+4A0415,CON, 
+4A0416,CON, 
+3A1358,CON, 
+3A1081,CON, 
+4A0451,CON, 
+4A0452,CON, 
+4A0459,CON, 
+4A0492,CON, 
+4A0608,CON, 
+4A0725,COT,Pancreas cancer
+4A0030,CON, 
+4A0122,CON, 
+4A0128,CON, 
+4A0916,CON, 
+4A1001,COT,Neck
+4A1015,CON, 
+4A1022,CON, 
+4A1023,CON, 
+4A0963,CON,
+4A1113,CON, 
+4A1114,CON, 
+4A1115,CON, 
+3A1259,CON, 
+3A1356,CON, 
+4A0671,CON, 
+4A0580,CON, 
+4A0421,CON, 
+4A0607,CON, 
+4A0527,CON, 
+4A0603,CON, 
+4A0440,CON, 
+4A0420,CON, 
+4A0601,CON, 
+4A0431,CON, 
+4A0430,CON, 
+4A0429,CON, 
+4A0525,CON, 
+4A1136,CON, 
+4A0460,CON, 
+4A0432,CON, 
+4A0576,CON, 
+4A0444,CON, 
+4A1134,CON, 
+4A0582,CON, 
+4A0443,CON, 
+4A0428,CON, 
+4A0526,CON, 
+4A0309,CON, 
+4A0609,CON, 
+4A0602,CON,
+4A0461,CON, 
+4A0511,CON, 
+4A0528,CON, 
+4A0506,CON, 
+1A0035,CON, 
+2A0809,CON, 
+3A1071,CON, 
+3A1205,CON, 
+3A1325,CON, 
+4A0150,CON, 
+4A0673,CON, 
+4A0857,CON, 
+1A0157,COT,Testicular cancer
+4A0383,CS,Testicular cancer
+1A0162,COT,CRC
+1A0478,CTN,Lung cancer
+1A0486,CTN,Lung cancer
+2A0004,CTN,Lung cancer
+2A0126,CTN,CRC
+2A0144,COT,CRC
+2A0168,CTN,Head & Neck cancer
+2A0214,COT,CRC
+2A0263,CTN,Adnexael cancer
+2A0270,CTN,CRC
+2A0287,COT,CRC
+2A0305,CTN,CRC
+2A0319,CTN,CRC
+2A0330,COT,CRC
+2A0335,CTN,CRC
+2A0373,CTN,Cervical cancer
+2A0593,CTN,CRC
+1A0518,CTN,Lung cancer
+2A0662,CTN,Liver cancer
+2A1171,CTN,Breast cancer
+2A1172,CTN,Blood cancer
+2A1209,CTN,CRC
+3A0479,CTN,Prostate cancer
+3A0689,CTN,Blood cancer
+3A0693,CTN,Lung cancer
+3A0728,CTN,Sarcoma
+3A0762,CTN,Liver cancer
+3A0814,CTN,Head & Neck cancer
+3A0850 ,CTN,CRC
+3A0861 ,CTN,Urinary Bladder carcinoma
+3A1100,CTN,Blood cancer
+3A1136,CTN,Cervical cancer
+3A1149,CTN,Gastroesophageal cancer
+3A1291,CTN,Liver cancer
+3A1282,CTN,Lung  cancer
+3A1253,CTN,Head & Neck cancer
+3A1256,CTN,Stomach cancer
+3A1264,CTN,Prostate cancer
+3A1270,CTN,Lung cancer
+3A1280,CTN,Prostate cancer
+3A1287,CTN,Cervical cancer
+3A1301,CTN,Breast cancer
+3A1304,CTN,CRC
+3A1305,CTN,Lung cancer
+3A1307,CTN,Lung cancer
+3A1321,CTN,CRC
+3A1328,CTN,Gastroesophageal cancer
+3A1329,CTN,Thyroid cancer
+3A1339,CTN,Breast cancer
+3A1352,CTN,Head & Neck cancer
+3A1353,CTN,Adnexael cancer
+3A1355,CTN,CRC
+4A0001,CTN,Prostate cancer
+4A0418,CTN,Pancreas cancer
+3A1267,CTN,Breast cancer
+3A1286,CTN,PUO
+3A1320,CTN,Brain cancer
+2A0388,CTN,Prostate cancer
+2A0390,CTN,Breast cancer
+2A0396,CTN,Prostate cancer
+2A0397,CTN,Prostate cancer
+2A0400,CTN,Breast cancer
+2A0402,CTN,Breast cancer
+4A0007,CTN,Lung cancer
+4A0018,CTN,Prostate cancer
+1A0233,CTN,Ovarian cancer
+2A0345,CTN,Liver cancer
+4A0672,CON,
+5,COT,CUP
+1A0044,COT,Blood cancer
+1A0258,COT,CRC
+1A0156,COT,Breast cancer
+1A0388,COT,CRC
+1A0422,COT,Lung cancer
+1A0424,COT,Lung cancer
+1A0436,COT,Prostate Cancer
+1A0466,COT,Lung cancer
+1A0474,COT,Breast cancer
+1A0447,COT,Breast cancer
+1A0505,CTN,Lung cancer
+1A0506,COT,CRC
+1A0525,COT,Cervical Cancer
+2A0049,COT,Lung cancer
+2A0094,COT,Lung cancer
+2A0097,COT,CRC
+2A0098,COT,CRC
+2A0115,COT,Lung cancer
+2A0127,COT,CRC
+2A0156,CTN,Lung cancer
+2A0157,COT,Lung cancer
+2A0166,COT,Lung cancer
+2A0167,CTN,Lung cancer
+2A0169,COT,CRC
+2A0185,COT,CRC
+2A0186,CTN,Lung cancer
+2A0187,COT,Lung cancer
+2A0191,COT,Lung cancer
+2A0202,COT,Lung cancer
+2A0203,COT,Lung cancer
+2A0293,COT,Lung cancer
+2A0334,COT,Lung cancer
+2A0067,COT,CRC
+1A0487,CS,CRC
+2A1150,COT,Gastroesophageal cancer
+2A1239,COT,Perihilar cholangiocarcinoma
+3A0074,COT,Brain cancer
+3A0464,COT,Blood cancer
+3A0525,COT,Prostate cancer
+3A0558,COT,Ovarian cancer
+3A1341,COT,Breast cancer
+4A0401,COT,Breast cancer
+4A0417,COT,Lung cancer
+4A0474 ,COT,CRC
+2A0355,COT,Lung cancer
+2A0356,COT,Lung cancer
+2A0371,COT,Gastrointestinal cancer
+2A0379,COT,Gastroesophageal cancer
+2A0380,COT,Breast cancer
+2A0389,COT,Lung cancer
+2A0398,COT,Prostate cancer 
+2A0401,COT,Gastroesophageal cancer
+3A0740,COT,Prostate cancer 
+3A1168,COT,Urinary Bladder carcinoma
+3A0407,COT,Kidney cancer
+4,COT,Blood cancer
+3A0229,CS,Blood cancer
+8,CS,Neuroendocrine gland cancer
+1A0136,CS,Breast cancer
+1A0375,COT,CRC
+1A0454,COT,Anal Canal cancer
+1A0457,COT,CRC
+1A0476,CS,Breast cancer
+1A0449,CS,Blood cancer
+2A0005,COT,CRC
+2A0153,CS,CRC
+2A0290,CS,CRC
+2A0292,CS,CRC
+2A0301,CS,CRC
+2A0336,CS,CRC
+2A0635,COT,Lung cancer
+2A0705,CS,Breast cancer
+2A0737,CS,Blood cancer
+2A1158,CS,Testicular cancer
+3A0060,CS,Kidney cancer
+3A1150,CS,Prostate cancer 
+4A0153,COT,Blood cancer
+2A0370,CS,Lung cancer
+2A0399,CS,Stomach cancer
+3A0721,CS,Breast cancer
+4A0450,CS,Cervical cancer
+4A1100,CS,Uterine carcinosarcoma
+1A0099,CS,Head & Neck cancer
+3A0064,CS,Breast cancer
+4A0115,CS,Endometrial cancer
+4A0475,COT,Head & Neck cancer
+4A0136,CON, 
+4A1009,CON, 
+4A0178,CON, 
+4A0179,CON, 
+4A0180,CON, 
+4A0181,CON, 
+4A0182,CON, 
+4A0198,CON, 
+4A0199,CON, 
+4A0202,CON, 
+4A0209,CON, 
+4A0216,CON, 
+4A0217,CON, 
+4A0219,CON, 
+4A0220,CON, 
+4A0221,CON, 
+4A0222,CON, 
+4A0224,CON, 
+4A0226,CON, 
+4A0229,CON, 
+4A0231,CON, 
+4A0232,CON, 
+4A0236,CON, 
+4A0238,CON, 
+4A0239,CON, 
+4A0251,CON, 
+4A0252,CON, 
+4A0253,CON, 
+4A0254,CON, 
+4A0255,CON, 
+4A0256,CON, 
+4A0257,CON, 
+4A0304,CON, 
+4A0306,CON, 
+4A0307,CON, 
+4A0308,CON, 
+4A0311,CON, 
+4A0312,CON, 
+4A0313,CON, 
+4A0315,CON, 
+4A0319,CON, 
+4A0320,CON, 
+4A0321,CON, 
+4A0322,CON, 
+4A0323,CON, 
+4A0324,CON, 
+4A0325,CON, 
+4A0326,CON, 
+4A0327,CON, 
+4A0334,CON, 
+4A0336,CON, 
+4A0342,CON, 
+4A0351,CON, 
+4A0354,CON, 
+4A0355,CON, 
+4A0359,CON, 
+4A0362,CON, 
+4A0363,CON, 
+4A0364,CON, 
+4A0365,CON, 
+4A0371,CON, 
+4A0385,CON, 
+4A0391,CON, 
+4A0392,CON, 
+4A0393,CON, 
+4A0400,CON, 
+4A0402,CON, 
+4A0403,CON, 
+4A0404,CON, 
+4A0410,CON, 
+4A0411,CON, 
+4A0610,CON, 
+4A0611,CON, 
+4A0612,CON, 
+4A0613,CON, 
+4A0615,CON, 
+4A0627,CON, 
+4A0628,CON, 
+4A0646,CON, 
+4A0647,CON, 
+4A0648,CON, 
+4A0649,CON, 
+4A0650,CON, 
+4A0651,CON, 
+4A0653,CON, 
+4A1152,CON, 
+4A1154,CON, 
+4A1234,CON, 
+4A1338,CTN,Head & Neck cancer
+4A1339,COT,Prostate cancer 
+4A1412,CON, 
+4A1413,CON, 
+4A1433,CS,Kidney cancer
+4A1434,CON, 
+4A1439,CON, 
+4A1440,CON, 
+4A1441,CON, 
+4A1443,CON, 
+4A1444,CON, 
+4A1446,COT,Prostate cancer 
+4A1533,CON, 
+4A1598,COT,Gastrointestinal cancer
+2A0008,CTN,Liver cancer
+2A0010,COT,CRC
+2A0021,CTN,Lung cancer
+2A0070,CTN,CRC
+3A1340,CTN,Lung  cancer
+4A0002,CTN,Lung cancer
+4A0005,CTN,Gastroesophageal cancer
+4A0006,CTN,Head & Neck cancer
+4A0008,CTN,Prostate cancer 
+4A0009,CTN,Breast cancer
+2A0668,CON, 
+3A0633,CON, 
+3A0635,CON, 
+3A0636,CON, 
+3A0637,CON, 
+3A0638,CON, 
+3A0639,CON, 
+3A0643,CON, 
+3A0659,CON, 
+3A0660,CON, 
+3A0662,CON, 
+3A0661,CON, 
+3A0665,CON, 
+3A0666,CON, 
+3A0669,CON, 
+3A0674,CON, 
+3A0684,CON, 
+3A0685,CON, 
+3A0713,CON, 
+3A0705,CON, 
+3A0706,CON, 
+3A0691,CON, 
+3A0707,CON, 
+3A0708,CON, 
+3A0714,CON, 
+3A0716,CON, 
+3A0717,CON, 
+3A0715,CON, 
+3A0718,CON, 
+3A0722,CON, 
+3A0851,CON, 
+3A0725,CON, 
+3A0726,CON, 
+3A0834,CON, 
+3A0853,CON, 
+1A0349,CON, 
+1A0452,COT,Head & Neck cancer
+1A0463,CTN,Anal Canal cancer
+1A0464,COT,Sarcoma
+1A0465,COT,Ovarian cancer
+1A0467,CTN,Prostate cancer 
+1A0468,COT,Testicular cancer
+1A0469,COT,Kidney cancer
+1A0471,COT,Head & Neck cancer
+1A0472,CTN,Prostate cancer 
+1A0475,COT,Ovarian cancer
+1A0477,COT,Urinary Bladder carcinoma
+2A0029,CON, 
+2A0695,CON, 
+3A1312,CON, 
+3A1313,CON, 
+3A1314,CON,
+3A1315,CON, 
+3A1316,CON, 
+3A1317,CON, 
+3A1318,CON, 
+3A1324,CON, 
+3A1326,CON, 
+3A1331,CON, 
+3A1332,CON, 
+3A1333,CON, 
+3A1334,CON, 
+3A1335,CON, 
+3A1336,CON, 
+3A1337,CON, 
+3A1338,CON, 
+3A1344,CON, 
+3A1345,CON, 
+3A1350,CON, 
+4A0012,CON, 
+4A0013,CON, 
+4A0023,CON, 
+4A0024,CON, 
+4A0025,CON, 
+4A0026,CON, 
+4A0027,CON, 
+4A0029,CON, 
+4A0031,CON, 
+4A0033,CON, 
+4A0034,CON, 
+4A0037,CON, 
+4A0038,CON, 
+4A0039,CON, 
+4A0040,CON, 
+4A0041,CON, 
+4A0042,CON, 
+4A0043,CON, 
+4A0044,CON, 
+4A0045,CON, 
+4A0046,CON, 
+4A0047,CON, 
+4A0048,CON, 
+4A0049,CON, 
+4A0050,CON, 
+4A0080,CON, 
+4A0081,CON, 
+4A0082,CON, 
+4A0083,CON, 
+4A0085,CON, 
+4A0086,CON, 
+4A0087,CON, 
+4A0088,CON, 
+4A0090,CON, 
+4A0091,CON, 
+4A0092,CON, 
+4A0093,CON, 
+4A0094,CON, 
+4A0095,CON, 
+4A0097,CON, 
+4A0102,CON, 
+4A0119,CON, 
+4A0121,CON, 
+4A0123,CON, 
+4A0124,CON, 
+4A0125,CON, 
+4A0130,CON, 
+4A0131,CON, 
+4A0132,CON, 
+4A0133,CON, 
+4A0134,CON, 
+4A0135,CON, 
+4A0138,CON, 
+4A0140,CON, 
+4A0141,CON, 
+4A0142,CON, 
+4A0143,CON, 
+4A0144,CON, 
+4A0145,CON, 
+4A0147,CON, 
+4A0148,CON, 
+4A0154,CON, 
+4A0156,CON, 
+4A0157,CON, 
+4A0159,CON, 
+4A0161,CON, 
+4A0162,CON, 
+4A0163,CON, 
+4A0164,CON, 
+4A0165,CON, 
+4A0167,CON, 
+4A0168,CON, 
+4A0172,CON, 
+4A0173,CON, 
+4A0174,CON, 
+4A0175,CON, 
+4A0176,CON, 
+4A0258,CON, 
+4A0259,CON, 
+4A1101,CTN,Head & Neck cancer
+4A1110,CON, 
+4A1111,CON, 
+4A1112,CON, 
+4A1467,CON, 
+4A1469,CON, 
+4A1470,CON, 
+4A1471,CON, 
+4A1473,CON, 
+4A1474,CON, 
+4A1486,CON, 
+4A1488,CON, 
+4A1489,CON, 
+4A1513,CON, 
+4A1519,CON, 
+4A1531,CON, 
+4A1548,CTN,Gall Bladder cancer
+4A1556,CTN,Prostate cancer 
+4A1559,CTN,Breast cancer
+4A1593,CON,
+4A1107,CTN,Breast cancer
+4A1052,CTN,Urinary Bladder carcinoma
+4A0297,CON, 
+4A1643,COT,Pancreas cancer
+4A1653,CS,Pancreas cancer
+4A1660,COT,Kidney cancer
+4A1705,CS,Pancreas cancer
+4A1728,CON,
+4A1740,COT,Breast cancer
+4A1743,CON,
+4A1803,COT,Perianal cancer
+4A1804,CON,
+4A1814,CON,
+4A1132,CON, 
+4A1899,CON,
+4A2005,CON,
+4A2006,CON,
+4A2007,CON,
+4A0053,CON,
+4A0078,CTN,Lung cancer
+4A0079,CON,
+4A0187,CON,
+4A0247,CON,
+4A0248,CON,
+4A0249,CON,
+4A0291,CON,
+4A0301,CON,
+4A0345,CTN,Prostate cancer
+4A0356,CON,
+1A0163,CS,Breast cancer
+4A0713,CON, 
+4A0882,CON, 
+3A1131,CTN,Prostate cancer 
+3A0607,CON, 
+3A0634,CON, 
+3A0640,CON, 
+3A0641,CON, 
+3A0642,CON, 
+3A0644,CON, 
+3A0645,CON, 
+3A0646,CON, 
+3A0647,CON, 
+3A0658,CON, 
+3A0663,CON, 
+3A0664,CON, 
+3A0667,CON, 
+3A0668,CON, 
+3A0670,CON, 
+3A0671,CON, 
+3A0673,CON, 
+3A0675,CON, 
+3A0676,CON, 
+3A0677,CON, 
+3A0678,CON, 
+3A0679,CON, 
+3A0680,CON, 
+3A0682,CON, 
+3A0683,CON, 
+3A0709,CON, 
+3A0711,CON, 
+3A1091,CON, 
+3A0833,CON, 
+3A1092,CON, 
+3A0855,CS,Blood cancer
+3A0852,CON, 
+3A0875,CON, 
+3A0882,CON, 
+1A0428,CON, 
+1A0429,COT,Blood cancer
+1A0431,COT,Pancreas cancer
+1A0432,CON, 
+1A0433,CON, 
+1A0437,COT,Head & Neck cancer
+1A0446,COT,Head & Neck cancer
+1A0450,COT,CRC
+2A0728,CON, 
+3A0672,CON, 
+3A1201,CON, 
+3A1311,CON, 
+4A0295 ,CON, 
+4A1599,CTN,Head & Neck cancer
+4A1600,CTN,Thyroid cancer
+4A1617,CS,Breast cancer
+4A1635,CTN,Prostate Cancer
+4A1838,CTN,Breast cancer
+4A1922,CON,
+4A1992,CTN,Eye cancer
+4A0056,CON,
+4A0060,CON,
+4A0068,CON,
+5A0045,CON,
+5A0101,CON,
+5A0102,CON,
+5A0103,CON,
+5A0111,CON,
+5A0127,CON,
+5A0130,COT,CRC
+5A0148,CON,
+5A0149,CON,
+5A0150,CON,
+5A0155,CON,
+5A0156,CON,
+5A0157,CON,
+5A0158,CON,
+5A0182,CON,
+5A0256,CTN,Lung cancer
+5A0257,CTN,Breast cancer
+5A0260,CTN,Stomach cancer
+5A0261,CTN,Stomach cancer
+5A0280,CTN,Lung cancer
+5A0281,CTN,Esophagus cancer
+5A0282,CTN,Kidney cancer
+5A0294,CTN,Breast cancer
+5A0298,CTN,Blood cancer
+5A0299,CTN,Lymphoma/ PD Carcinoma?
+5A0307,CTN,Head & Neck cancer
+5A0308,CTN,Endometrial cancer
+5A0313,CTN,Urinary Bladder carcinoma
+5A0898,CON,
+5A0322,CTN,Esophagus cancer
+5A0335,CTN,CRC
+5A0336,CTN,Prostate Cancer
+5A0347,CTN,Gastrointestinal cancer
+5A0355,COT,
+5A0356,COT,
+5A0362,CTN,Ovarian cancer
+5A0363,CTN,Ovarian cancer
+5A0364,CTN,Kidney cancer
+5A0365,CTN,Prostate Cancer
+5A0366,CTN,Prostate Cancer
+5A0373,CTN,Vagina Cancer
+5A0386,CTN,Pancreas cancer
+5A0387,CTN,Sigmoid Cancer
+5A0435,CTN,Breast cancer
+5A0437,CTN,Head & Neck cancer
+5A0438,CTN,Appendix? ND
+5A0439,CTN,Esophagus cancer
+5A0449,CTN,Esophagus cancer
+5A0451,COT,
+5A0457,CTN,Head & Neck cancer
+5A0458,CTN,Prostate cancer
+5A0467,CTN,CRC
+5A0469,CTN,Head & Neck cancer
+5A0471,CTN,Breast cancer
+5A0480,CTN,Breast cancer
+5A0483,CTN,Liver cancer
+5A0484,CTN,Liver cancer
+5A0485,CTN,Cervical cancer
+5A0486,CTN,Head & Neck cancer
+5A0492,CTN,Pancreas cancer
+5A0498,CTN,Breast cancer
+5A0501,CTN,Head & Neck cancer
+5A0503,CTN,Blood cancer
+5A0504,CTN,Breast cancer
+5A0505,CTN,B Cell lymphoma
+5A0506,CTN,Adnexael cancer
+5A0507,CTN,Ovarian cancer
+5A0661,CTN,Prostate cancer
+5A0663,CTN,Sarcoma
+5A0664,COT,Urinary Bladder carcinoma
+5A0666,CTN,Breast cancer
+5A0667,CTN,Blood cancer (Suspected multiple myleoma?)
+5A0669,CTN,Breast cancer
+5A0681,CTN,Head & Neck cancer
+5A0686,CTN,Head & Neck cancer
+5A0687,CTN,Head & Neck cancer
+5A0688,CTN,Breast cancer
+5A1806,CTN,Prostate cancer
+5A1861,COT,Breast cancer
+5A1862,CTN,Breast cancer
+5A1866,CTN,Breast cancer
+5A1877,CTN,Liver cancer
+5A1878,CTN,Breast cancer
+5A0877,CTN,Breast cancer
+5A0878,CTN,CRC
+5A0879,CTN,Cervical cancer
+5A0880,CTN,Breast cancer
+5A0881,CTN,Gastroesophageal cancer
+5A0882,CTN,Esophagus cancer?
+5A0884,CTN,Stomach cancer
+5A0885,CTN,CRC
+5A0891,CTN,Prostate cancer
+5A0892,CTN,Vagina Cancer
+5A0893,CTN,Esophagus cancer
+5A0894,CTN,Endometrial cancer
+5A0895,CTN,Breast cancer
+5A0896,CTN,Breast cancer
+5A0897,CTN,Head & Neck cancer
+5A0899,CTN,Breast cancer
+5A0900,CTN,CRC
+5A0901,CTN,Uterine cancer
+5A0902,CTN,Duodenal cancer?
+5A0903,CTN,Kidney cancer
+5A0904,CTN,Sigmoid Cancer?
+5A0905,CTN,Breast cancer
+5A0906,CTN,Multiple Myeloma
+5A0909,CTN,Liver cancer
+5A0913,CTN,CRC
+5A0914,CTN,CRC
+5A0915,CTN,Kidney cancer
+5A0917,CTN,Lung cancer
+5A0918,CTN,Gall Bladder cancer
+5A0924,CTN,Breast cancer
+5A0925,CTN,Breast cancer
+5A0926,CTN,Head & Neck cancer
+5A0927,CTN,Head & Neck cancer
+5A0928,CTN,Breast cancer
+5A0929,CTN,Anal Canal cancer
+5A0932,CTN,Liver cancer
+5A0933,CTN,Brain cancer
+5A0935,CTN,Lung cancer
+5A0938,CTN,Urinary Bladder carcinoma
+5A0939,CTN,Prostate cancer
+5A0942,CTN,CRC
+5A0943,CTN,Prostate cancer
+5A0945,CTN,CRC
+5A0946,CTN,Kidney cancer
+5A0947,CTN,Adnexael cancer
+5A0948,CTN,Breast cancer
+5A0949,CTN,Urinary Bladder carcinoma
+5A0950,COT,Breast cancer
+5A0951,CTN,CRC
+5A0952,CTN, Cervical cancer
+5A0960,CTN,Stomach cancer
+5A0967,CTN,Breast cancer
+5A0973,CTN,CRC
+5A0974,CTN,Breast cancer
+5A0975,CTN,Soft Tissue (Spindle Cell Neoplasm)
+5A0976,CTN,CRC
+5A0977,CTN,Cervical cancer
+5A0979,CTN,Esophagus cancer
+5A0980,CTN,Endometrial cancer
+5A0981,CTN,Gastrointestinal cancer
+5A0982,CTN,Breast cancer
+5A1785,CTN,Head & Neck cancer
+5A1786,CTN,Urinary Bladder carcinoma
+5A1787,CTN,Adnexael cancer
+5A1789,CTN,Lymphoma
+5A1792,CTN,Anal Canal cancer
+5A1793,CTN,Stomach cancer
+5A1794,CTN,Esophagus cancer
+5A1795,CTN,Head & Neck cancer
+5A1796,CTN,Head & Neck cancer
+5A1797,CTN,Uterine/Cervix cancer?
+5A1801,CTN,Breast cancer
+5A1802,CTN,Breast cancer
+5A1803,CTN,Head & Neck cancer
+5A1804,CTN,Esophagus cancer
+5A1881,CTN,CRC
+5A1882,CTN,Adnexael cancer
+5A1883,CTN,Liver cancer
+5A1888,CTN,Lung cancer
+5A1889,CTN,Breast cancer
+5A1890,CTN,Head & Neck cancer
+5A1891,CTN,Esophagus cancer
+5A1892,CTN,Esophagus cancer
+5A1893,CTN,Head & Neck cancer
+5A1904,CTN,Breast cancer
+5A1908,CTN,Thyroid cancer
+5A1912,CTN,Prostate cancer
+5A1916,COT,
+5A1919,CTN,Lymphoma
+5A1920,CTN,Colon?
+5A1921,CTN,Endometrial cancer
+5A1922,CTN,Head & Neck cancer
+5A1923,CTN,Sigmoid cancer/ Adnexal
+5A1942,CTN,Breast cancer
+5A1943,CTN,Adnexael cancer
+5A1944,CTN,Prostate cancer
+5A1948,CTN,Esophagus cancer
+5A1955,CTN,Esophagus cancer
+5A1956,CTN,Lung cancer
+5A1959,CTN,Lung cancer
+5A1978,CTN,Head & Neck cancer
+5A1979,CTN,Breast cancer
+5A1996,CTN,Lung cancer
+5A1998,CTN,Esophagus cancer
+5A2007,CTN,Ovarian cancer
+5A2009,COT,Prostate cancer
+5A2011,CTN,Gall Bladder cancer
+5A2012,CTN,Cholangiocarcinoma?
+5A2020,CTN,CRC
+5A2021,CTN,Breast cancer
+5A2030,COT,Prostate cancer
+5A2164,CTN,Head & Neck cancer
+5A2166,CTN,Prostate cancer
+5A2167,CTN,Prostate cancer
+5A2038,CTN,Breast cancer
+5A2040,CTN,Head & Neck cancer
+5A2043,CTN,Lung cancer
+5A2044,CTN,Pancreas cancer
+5A2045,CTN,Breast cancer
+5A2046,CTN,Breast cancer
+5A2060,CTN,Head & Neck cancer
+5A2061,CTN,Ovarian cancer
+5A2071,CTN,Breast cancer
+5A2072,CTN,Lung cancer
+5A2078,COT,Stomach cancer
+5A2108,CTN,Breast cancer
+5A2113,CTN,Prostate cancer
+5A2115,CTN,Adnexael cancer
+5A2119,CTN,NHL?
+5A2126,COT,Prostate cancer
+5A2127,COT,Prostate cancer
+5A2131,CTN,Head & Neck cancer
+5A2133,CTN,Breast cancer
+5A2136,COT,Thyroid cancer
+5A2138,CTN,Head & Neck cancer
+5A2139,CTN,Uterine cancer
+5A2147,CTN,Esophagus cancer
+5A2149,CTN,Urinary bladder carcinoma
+5A2150,CTN,Breast cancer
+5A2153,CTN,Gall Bladder cancer
+5A2174,CTN,Breast cancer
+5A2184,CTN,Pancreas cancer
+5A2187,CTN,Adnexeal cancer
+5A2188,CTN,Cervical cancer 
+5A2191,CTN,Breast cancer
+5A2194,CTN,Multiple myleoma
+5A2196,CTN,Prostate cancer
+5A2199,CTN,Pancreas cancer
+5A2201,CTN,Head & Neck cancer
+5A2203,CTN,Vagina cancer 
+5A2205,CTN,Prostate cancer
+5A2211,CTN,CRC
+5A2212,CTN,Endometrial cancer
+5A2213,CTN,Breast cancer
+5A2217,CTN,Breast cancer
+5A2222,CTN,Breast cancer
+5A2228,CTN,Breast cancer
+5A2229,CTN,Cervical cancer 
+5A2230,CTN,CRC
+5A2235,CTN,Prostate cancer
+5A2236,CTN,
+5A2241,CTN,Breast cancer
+5A2243,CTN,Head & Neck cancer
+5A2245,CTN,Prostate cancer
+5A2246,CTN,Prostate cancer
+5A2249,CTN,Breast cancer
+5A2251,CTN,Breast cancer
+5A2254,CTN,CRC
+5A2255,CTN,Lung cancer
+5A2259,COT,Prostate cancer
+5A2260,CTN,Head & Neck cancer
+5A2265,CTN,Liver cancer
+5A2267,CTN,Ampulla cancer
+5A2275,CTN,Breast cancer
+5A2278,CTN,Prostate cancer
+5A2279,COT,NHL
+5A2280,CTN,Prostate cancer
+5A2283,CTN,Head & Neck cancer
+5A2289,CTN,Breast cancer
+5A2290,CTN,Breast cancer
+5A2291,CTN,Prostate cancer
+5A2297,CTN,Gall Bladder cancer
+5A2298,CTN,Breast cancer
+5A2301,CTN,Liver cancer
+5A2302,CTN,Adnexeal cancer
+5A2303,CTN,prostate cancer
+5A2307,CTN,ovarian cancer
+5A2318,CTN,Esophagus cancer
+5A2319,CTN,Adnexeal cancer
+5A2320,CTN,CRC
+5A2328,CTN,Gastrointestinal cancer
+5A2331,CTN,CRC
+5A2332,CTN,Breast cancer
+5A2345,CTN,Breast cancer
+5A2346,CTN,Liver cancer
+5A2347,CTN,Head & Neck cancer
+5A2354,CTN,Esophagus cancer
+5A2355,CTN,kidney cancer
+5A2358,CTN,Esophagus cancer
+5A2364,COT,Head & Neck cancer
+5A2365,CTN,Head & Neck cancer
+5A2366,CTN,Prostate cancer
+5A2373,CTN,Breast cancer
+5A2375,CTN,Breast cancer
+5A2376,CTN,Esophagus cancer
+5A2379,CTN,Cervical cancer
+5A2380,CTN,Head & Neck cancer
+5A2383,CTN,
+5A2385,CTN,Head & Neck cancer
+5A2392,CTN,CRC
+5A2393,COT,Squamous Cell Carcinoma
+5A2394,CTN,Prostate cancer
+5A2395,CTN,Esophagus cancer
+5A2400,CTN,Head & Neck cancer
+5A2403,CTN,Head & Neck cancer?
+5A2404,CTN,Gastrointestinal cancer
+5A2409,CTN,CRC
+5A2413,CTN,Pancreas cancer
+5A2414,CTN,Gastrointestinal cancer
+5A2416,CTN,Breast cancer
+5A2418,CTN,Prostate cancer
+5A2423,CTN,Breast cancer
+5A2432,CTN,Head & Neck cancer
+5A2433,CTN,Head & Neck cancer
+5A2436,CTN,CRC
+5A2437,CTN,Breast cancer
+5A2440,CTN,Prostate cancer
+5A2452,CTN,Esophagus cancer
+5A2454,CTN,Pancreas cancer
+5A2455,CTN,Breast cancer
+5A2458,CTN,Pancreas cancer
+5A2459,CTN,Esophagus cancer
+5A2462,CTN,Breast cancer
+5A2465,CS,Lymphoma
+5A2466,CTN,Head & Neck cancer
+5A2470,CTN,Prostate cancer
+5A2471,CTN,Prostate cancer
+5A2472,CTN,Prostate cancer
+5A2476,CTN,Breast cancer
+5A2481,CTN,Prostate cancer
+5A2483,CTN,Prostate cancer
+5A2485,CTN,Breast cancer
+5A2486,CTN,Adnexeal cancer
+5A2491,CTN,Breast cancer
+5A2494,COT,Urinary Bladder carcinoma
+5A2495,CTN,Pancreas cancer
+5A2497,CTN,Head & Neck cancer
+5A2501,CTN,CRC
+5A2503,CTN,Breast cancer
+5A2504,CTN,Breast cancer
+5A2506,CTN,Breast cancer
+5A2508,CTN,Breast cancer
+5A2510,CTN,Head & Neck cancer
+5A2513,CTN,Breast cancer
+5A2514,CTN,Cervical cancer
+5A2518,CTN,Bone cancer
+5A2525,CTN,Breast cancer
+5A2527,CTN,Head & Neck cancer
+5A2528,COT,Prostate cancer
+5A2529,CTN,Prostate cancer
+5A2540,CTN,Liver cancer
+5A2541,CTN,Prostate cancer
+5A2549,CTN,Lung cancer
+5A2552,CTN,Breast cancer
+5A2554,CTN,Prostate cancer
+5A2567,COT,Blood cancer
+5A2568,CTN,Lung cancer
+5A2578,CTN,Head & Neck cancer
+5A2581,CTN,Gall Bladder cancer
+5A2583,CTN,Head & Neck cancer
+5A2585,CTN,Head & Neck cancer
+5A2586,CTN,CRC
+5A2587,CTN,Lung cancer
+5A2588,CTN,Breast cancer
+5A2592,CTN,oesophagus cancer
+5A2599,CTN,Lymphoma
+5A2600,CTN,Liver cancer
+5A2601,CTN,Kidney cancer
+5A2602,CTN,Esophagus cancer
+5A2605,CTN,CRC

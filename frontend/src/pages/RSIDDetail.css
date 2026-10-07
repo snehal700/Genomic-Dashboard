@@ -1,0 +1,729 @@
+/* =========================================================
+   RSID DETAIL PAGE
+   ========================================================= */
+
+.rsid-detail-page {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 36px 48px 60px;
+
+    background: #f5f8fb;
+    color: #0b3158;
+
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.rsid-detail-header {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 32px;
+}
+
+
+.rsid-detail-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 18px;
+
+    font-size: 13px;
+    color: #6c86a1;
+}
+
+
+.rsid-detail-breadcrumb button {
+    border: none;
+    background: transparent;
+
+    padding: 0;
+
+    color: #008f8c;
+
+    font-size: 13px;
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+
+.rsid-detail-breadcrumb button:hover {
+    text-decoration: underline;
+}
+
+
+.rsid-detail-title {
+    display: flex;
+    align-items: center;
+
+    gap: 18px;
+}
+
+
+.rsid-detail-title-icon {
+    width: 66px;
+    height: 66px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 14px;
+
+    background: #e4f6f3;
+    color: #08a497;
+}
+
+
+.rsid-detail-title h1 {
+    margin: 0 0 5px;
+
+    font-size: 30px;
+    line-height: 1.15;
+
+    font-weight: 700;
+
+    color: #092f57;
+}
+
+
+.rsid-detail-title p {
+    margin: 0;
+
+    font-size: 14px;
+
+    color: #6f88a3;
+}
+
+
+/* =========================================================
+   BACK BUTTON
+   ========================================================= */
+
+.rsid-back-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    min-height: 48px;
+
+    padding: 0 18px;
+
+    border: 1px solid #d5e1ec;
+    border-radius: 11px;
+
+    background: #ffffff;
+
+    color: #375674;
+
+    font-size: 13px;
+    font-family: inherit;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.rsid-back-top:hover {
+    background: #f8fbfd;
+
+    border-color: #bfd1e0;
+
+    box-shadow: 0 4px 12px rgba(19, 55, 88, 0.06);
+}
+
+
+/* =========================================================
+   SUMMARY CARDS
+   ========================================================= */
+
+.rsid-summary-grid {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr));
+
+    gap: 18px;
+
+    margin-bottom: 46px;
+}
+
+
+.rsid-summary-card {
+    min-height: 108px;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 18px 22px;
+
+    border: 1px solid #d9e5ef;
+    border-radius: 12px;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 5px 15px rgba(20, 55, 85, 0.04);
+}
+
+
+.rsid-summary-icon {
+    width: 46px;
+    height: 46px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 12px;
+
+    background: #e4f6f3;
+
+    color: #08a497;
+}
+
+
+.rsid-summary-card > span {
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 12px;
+
+    color: #7089a4;
+}
+
+
+.rsid-summary-card strong {
+    display: block;
+
+    font-size: 20px;
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    color: #082f58;
+}
+
+
+/* =========================================================
+   DATASET SECTION
+   ========================================================= */
+
+.rsid-type-selection {
+    width: 100%;
+}
+
+
+.rsid-type-selection-header {
+    margin-bottom: 24px;
+}
+
+
+.rsid-type-selection-header h2 {
+    margin: 0 0 8px;
+
+    font-size: 27px;
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    color: #092f57;
+}
+
+
+.rsid-type-selection-header p {
+    margin: 0;
+
+    font-size: 16px;
+
+    color: #123f69;
+}
+
+
+/* =========================================================
+   SOMATIC / GERMLINE GRID
+   ========================================================= */
+
+.rsid-type-buttons {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 22px;
+}
+
+
+/* =========================================================
+   DATASET CARD
+   ========================================================= */
+
+.rsid-type-card {
+    width: 100%;
+    min-height: 190px;
+
+    box-sizing: border-box;
+
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: auto 1fr auto;
+
+    grid-template-rows: auto 1fr;
+
+    align-items: start;
+
+    column-gap: 18px;
+
+    padding: 27px;
+
+    border: 1px solid #d9e5ef;
+    border-radius: 16px;
+
+    background: #ffffff;
+
+    color: #0b3158;
+
+    font-family: inherit;
+
+    text-align: left;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 5px 16px rgba(20, 55, 85, 0.035);
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+
+.rsid-type-card:hover {
+    transform: translateY(-2px);
+
+    border-color: #bcd5e5;
+
+    box-shadow:
+        0 10px 24px rgba(20, 55, 85, 0.08);
+}
+
+
+/* =========================================================
+   DATASET ICON
+   ========================================================= */
+
+.rsid-type-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 13px;
+
+    background: #e7f7f4;
+
+    color: #08a497;
+}
+
+
+.rsid-type-card.germline .rsid-type-icon {
+    background: #edf3f8;
+
+    color: #7290a8;
+}
+
+
+/* =========================================================
+   DATASET TEXT
+   ========================================================= */
+
+.rsid-type-card > div:nth-child(2) {
+    min-width: 0;
+
+    padding-top: 3px;
+}
+
+
+.rsid-type-card strong {
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-size: 18px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    color: #163d63;
+}
+
+
+.rsid-type-card span {
+    display: block;
+
+    font-size: 13px;
+
+    color: #7991a8;
+}
+
+
+/* =========================================================
+   ARROW
+   ========================================================= */
+
+.rsid-type-arrow {
+    align-self: center;
+
+    color: #9db0c2;
+
+    transform: rotate(180deg);
+
+    transition:
+        transform 0.2s ease,
+        color 0.2s ease;
+}
+
+
+.rsid-type-card:hover .rsid-type-arrow {
+    color: #55748f;
+
+    transform:
+        rotate(180deg)
+        translateX(-3px);
+}
+
+
+/* =========================================================
+   DESCRIPTION INSIDE DATASET CARD
+   ========================================================= */
+
+.rsid-type-card::after {
+    content:
+        "View variants and their genomic annotations, classifications and visualizations.";
+
+    position: absolute;
+
+    left: 27px;
+    right: 27px;
+    bottom: 27px;
+
+    padding-top: 18px;
+
+    border-top: 1px solid #edf2f6;
+
+    font-size: 12px;
+
+    line-height: 1.5;
+
+    color: #9aabbb;
+}
+
+
+/* =========================================================
+   UNAVAILABLE DATASET
+   ========================================================= */
+
+.rsid-type-card.unavailable {
+    cursor: default;
+
+    background: #fbfcfd;
+
+    box-shadow: none;
+}
+
+
+.rsid-type-card.unavailable:hover {
+    transform: none;
+
+    border-color: #d9e5ef;
+
+    box-shadow: none;
+}
+
+
+.rsid-type-card.unavailable .rsid-type-icon {
+    background: #f0f4f7;
+
+    color: #9aafc0;
+}
+
+
+.rsid-type-card.unavailable strong {
+    color: #71879b;
+}
+
+
+.rsid-type-card.unavailable span {
+    color: #a2b1be;
+}
+
+
+.rsid-type-card.unavailable::after {
+    content: "No variants available for this dataset.";
+}
+
+
+/* =========================================================
+   DATABASE NOTE
+   ========================================================= */
+
+.rsid-database-note {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 24px;
+
+    padding: 15px 18px;
+
+    border: 1px solid #ccebe6;
+    border-radius: 11px;
+
+    background: #eaf8f5;
+
+    color: #078e85;
+
+    font-size: 13px;
+}
+
+
+.rsid-database-note svg {
+    flex-shrink: 0;
+}
+
+
+/* =========================================================
+   LOADING / ERROR STATES
+   ========================================================= */
+
+.rsid-detail-state {
+    min-height: 100vh;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 40px;
+
+    background: #f5f8fb;
+
+    text-align: center;
+}
+
+
+.rsid-detail-state h2 {
+    margin: 18px 0 7px;
+
+    font-size: 23px;
+
+    color: #092f57;
+}
+
+
+.rsid-detail-state p {
+    margin: 0;
+
+    max-width: 500px;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+
+    color: #71879d;
+}
+
+
+.rsid-detail-spinner {
+    color: #08a497;
+
+    animation:
+        rsid-spin 1s linear infinite;
+}
+
+
+@keyframes rsid-spin {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+
+.rsid-detail-error-icon {
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #fff0f0;
+
+    color: #d95353;
+}
+
+
+.rsid-back-button {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 20px;
+
+    padding: 11px 17px;
+
+    border: 1px solid #d5e1ec;
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    color: #375674;
+
+    font-family: inherit;
+
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1000px) {
+
+    .rsid-detail-page {
+        padding: 28px 30px 50px;
+    }
+
+
+    .rsid-summary-grid {
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+
+    .rsid-type-buttons {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .rsid-detail-page {
+        padding: 22px 18px 40px;
+    }
+
+
+    .rsid-detail-header {
+        flex-direction: column;
+
+        gap: 20px;
+    }
+
+
+    .rsid-back-top {
+        align-self: flex-start;
+    }
+
+
+    .rsid-detail-title h1 {
+        font-size: 25px;
+    }
+
+
+    .rsid-summary-grid {
+        grid-template-columns: 1fr;
+
+        gap: 12px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .rsid-type-selection-header h2 {
+        font-size: 23px;
+    }
+
+
+    .rsid-type-selection-header p {
+        font-size: 14px;
+    }
+
+
+    .rsid-type-card {
+        min-height: 180px;
+
+        padding: 22px;
+    }
+
+
+    .rsid-type-card::after {
+        left: 22px;
+        right: 22px;
+        bottom: 22px;
+    }
+
+}

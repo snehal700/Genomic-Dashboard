@@ -1,0 +1,506 @@
+.rsid-search-page {
+    min-height: 100vh;
+
+    padding: 30px 34px 60px;
+
+    background: #f5f8fb;
+
+    color: #102d50;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.rsid-search-header {
+    position: relative;
+}
+
+.rsid-search-header > .page-navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* =========================================================
+   BACK TO DASHBOARD BUTTON
+   ========================================================= */
+
+.back-dashboard-button {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    padding: 11px 17px;
+
+    border: 1px solid #d8e3ed;
+
+    border-radius: 9px;
+
+    background: #ffffff;
+
+    color: #294664;
+
+    font-family: inherit;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        border-color 0.15s ease,
+        color 0.15s ease,
+        background 0.15s ease,
+        transform 0.15s ease;
+}
+
+.back-dashboard-button:hover {
+    border-color: #0da893;
+
+    color: #079e8c;
+
+    background: #f8fcfb;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   BREADCRUMB
+   ========================================================= */
+
+.rsid-breadcrumb {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 22px;
+
+    color: #8a98a8;
+
+    font-size: 11px;
+}
+
+.rsid-breadcrumb span:last-child {
+    color: #193b5e;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   TITLE
+   ========================================================= */
+
+.rsid-title-row {
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    margin-bottom: 28px;
+}
+
+.rsid-title-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 12px;
+
+    background: #e3f6f2;
+
+    color: #129784;
+}
+
+.rsid-title-row h1 {
+    margin: 0;
+
+    color: #102d50;
+
+    font-size: 27px;
+
+    font-weight: 750;
+}
+
+.rsid-title-row p {
+    margin: 5px 0 0;
+
+    color: #7d8b9b;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   SEARCH CARD
+   ========================================================= */
+
+.rsid-search-card {
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    padding: 28px;
+
+    background: #ffffff;
+
+    border: 1px solid #dce5ed;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 5px 20px
+        rgba(16, 45, 80, 0.05);
+}
+
+
+/* =========================================================
+   CARD HEADER
+   ========================================================= */
+
+.rsid-search-card-header {
+    display: flex;
+    align-items: center;
+
+    gap: 13px;
+
+    margin-bottom: 22px;
+}
+
+.rsid-card-icon {
+    width: 43px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #e8f7f4;
+
+    color: #129784;
+}
+
+.rsid-search-card-header h2 {
+    margin: 0;
+
+    color: #153655;
+
+    font-size: 17px;
+}
+
+.rsid-search-card-header p {
+    margin: 4px 0 0;
+
+    color: #8a97a6;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   SEARCH FORM
+   ========================================================= */
+
+.rsid-search-form {
+    display: flex;
+
+    gap: 10px;
+}
+
+.rsid-input-wrapper {
+    position: relative;
+
+    flex: 1;
+}
+
+.rsid-input-wrapper input {
+    width: 100%;
+
+    height: 48px;
+
+    box-sizing: border-box;
+
+    padding: 0 15px 0 43px;
+
+    border: 1px solid #d7e0e8;
+
+    border-radius: 8px;
+
+    outline: none;
+
+    color: #193b5e;
+
+    background: #fbfcfd;
+
+    font-size: 13px;
+
+    transition: 0.2s;
+}
+
+.rsid-input-wrapper input::placeholder {
+    color: #a1acb8;
+}
+
+.rsid-input-wrapper input:focus {
+    border-color: #13a68b;
+
+    background: #ffffff;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(19, 166, 139, 0.09);
+}
+
+.rsid-input-icon {
+    position: absolute;
+
+    left: 15px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: #8191a2;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   SEARCH BUTTON
+   ========================================================= */
+
+.rsid-search-button {
+    height: 48px;
+
+    padding: 0 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #0f9e8a;
+
+    color: #ffffff;
+
+    font-size: 12px;
+
+    font-weight: 650;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.rsid-search-button:hover {
+    background: #0b8c7a;
+}
+
+.rsid-search-button:disabled {
+    opacity: 0.65;
+
+    cursor: not-allowed;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.rsid-error {
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+
+    margin-top: 15px;
+
+    padding: 11px 13px;
+
+    border: 1px solid #f1d4d8;
+
+    border-radius: 8px;
+
+    background: #fff5f6;
+
+    color: #bd4857;
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   EXAMPLES
+   ========================================================= */
+
+.rsid-examples {
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 15px;
+
+    color: #8795a4;
+
+    font-size: 10px;
+}
+
+.rsid-examples button {
+    padding: 5px 9px;
+
+    border: 1px solid #dce6ed;
+
+    border-radius: 6px;
+
+    background: #f8fafb;
+
+    color: #188d7e;
+
+    font-family: monospace;
+
+    font-size: 10px;
+
+    cursor: pointer;
+}
+
+.rsid-examples button:hover {
+    border-color: #13a68b;
+
+    background: #eaf8f5;
+}
+
+
+/* =========================================================
+   INFO GRID
+   ========================================================= */
+
+.rsid-info-grid {
+    max-width: 1000px;
+
+    margin: 18px auto 0;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 15px;
+}
+
+.rsid-info-card {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 13px;
+
+    padding: 18px;
+
+    background: #ffffff;
+
+    border: 1px solid #dce5ed;
+
+    border-radius: 11px;
+}
+
+.rsid-info-icon {
+    width: 39px;
+    height: 39px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 9px;
+
+    background: #e8f7f4;
+
+    color: #129784;
+}
+
+.rsid-info-card h3 {
+    margin: 0;
+
+    color: #193b5e;
+
+    font-size: 12px;
+}
+
+.rsid-info-card p {
+    margin: 5px 0 0;
+
+    color: #8996a5;
+
+    font-size: 10px;
+
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .rsid-search-page {
+        padding: 20px 15px 40px;
+    }
+
+    .rsid-search-header {
+        padding-top: 48px;
+    }
+
+    .rsid-search-header > .page-navigation {
+        left: 0;
+        right: 0;
+    }
+
+    .back-dashboard-button {
+        top: 0;
+        right: 0;
+    }
+
+    .rsid-search-card {
+        padding: 20px;
+    }
+
+    .rsid-search-form {
+        flex-direction: column;
+    }
+
+    .rsid-search-button {
+        width: 100%;
+    }
+
+    .rsid-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
